@@ -254,7 +254,7 @@ namespace Libraries
                     break;
             }
 
-            request.UserAgent = "DiscordBot/1.0";
+            request.UserAgent = "SomeApplication/1.0";
 
             request.Headers.Add("Authorization", $"{APIKey}");
 
